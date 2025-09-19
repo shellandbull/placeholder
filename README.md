@@ -1,24 +1,20 @@
-# README
+# ActiveAgent Examples (Rails)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails application that hosts example integrations and demos for [ActiveAgent](https://www.activeagents.ai/).
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+Nothing to see here
 
-* System dependencies
+### Requirements
+- Ruby 3.2+
+- Rails 7+
+- PostgreSQL (or your preferred database)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Setup
+```bash
+git clone <repo-url>
+cd <repo>
+bundle install
+bin/rails db:setup
+bin/rails server
