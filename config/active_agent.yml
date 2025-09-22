@@ -1,6 +1,7 @@
 development:
-  openai:
-    service: "OpenAI"
-    api_key: <%= Rails.application.credentials.dig(:openai, :api_key) %>
-    model: "gpt-4o-mini"
+  ollama:
+    service: "Ollama"
+    api_key: ""
+    host: "http://localhost:11434"
+    model: "gemma3:latest"
     temperature: 0.7
